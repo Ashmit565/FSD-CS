@@ -23,7 +23,7 @@ readDir("../day_02");
 const makeDir = async(path)=>{
    try {
     await fs.mkdir(path);
-    console.log("Directory has been created successfully.");    
+    console.log("Directory has been created successfully.");  
    } catch (error) {
     console.log("unable to make dir");   
    }
